@@ -1,6 +1,6 @@
 # Hotel Management System
 
-![hotel-travel](https://github.com/user-attachments/assets/778f8d21-d9db-43a2-9ac5-b923123781f6)
+![HKajYeeDAOZJ-4Qs (3)](https://github.com/user-attachments/assets/88a900a1-b274-4fbd-8e77-4c63f8d3ea20)
 
 
 ## Table of Contents
