@@ -7,10 +7,11 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [File Structure](#file-structure)
+- [How To Build](#how-to-build)
+- [How to Run](#how-to-run)
+- [Functionality](#Functionality)
+- [Notes](#Notes)
 
 ## Introduction
 The Hotel Management System is a robust C++ application designed to simplify the complexities of managing a hotel. It includes modules for booking, check-in/check-out, restaurant and bar management, and more, ensuring smooth operations and customer satisfaction.
@@ -42,12 +43,48 @@ The Hotel Management System is a robust C++ application designed to simplify the
 ![bar_list](https://github.com/user-attachments/assets/984d1f56-7f84-4358-9653-a0964f2d89d2)
 ![bar_order_corfrmation](https://github.com/user-attachments/assets/c2220b00-ee39-4618-a547-ee4f4282a80b)
 
-## Installation
-### Prerequisites
-- C++ Compiler
+## File Structure
 
-### Steps
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/hotel-management-system.git
-   cd hotel-management-system
+- `include/hotel.h`: Header file containing class definitions and function declarations.
+- `src/hotel.cpp`: Source file containing the implementations of the class member functions.
+- `src/main.cpp`: Source file containing the `main` function.
+- `Makefile`: File to build the project.
+
+## How to Build
+
+To build the project, navigate to the project directory and run:
+
+```sh
+make
+```
+
+This will compile the source files and create an executable named `hotel_management`.
+
+## How to Run
+
+After building the project, run the executable:
+
+```sh
+./hotel_management
+```
+
+## Functionality
+
+The `HOTEL` class contains the following functions:
+
+- `booking()`: Handles the room booking process.
+- `check_in()`: Handles the check-in process.
+- `check_out()`: Handles the check-out process.
+- `cancellation()`: Handles the booking cancellation process.
+- `taxi_service()`: Manages taxi services.
+- `restaurant()`: Manages restaurant services.
+- `bar()`: Manages bar services.
+- `swimming_pool()`: Manages the swimming pool.
+- `gymnasium()`: Manages the gymnasium.
+- `games()`: Manages games and recreational activities.
+- `view_data()`: Displays various data related to the hotel management.
+
+## Notes
+
+- Ensure all required libraries are installed.
+- The project uses some deprecated functions and libraries. Consider updating them for modern C++ standards.
